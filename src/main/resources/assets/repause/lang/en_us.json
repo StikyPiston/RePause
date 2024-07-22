@@ -1,0 +1,8 @@
+{
+  "item.repause.resume": "Resume",
+  "item.repause.incomplete_pause": "Incomplete Pause",
+  "item.repause.incomplete_resume": "Incomplete Resume",
+  "item.repause.freeze_grenade": "Freeze Grenade",
+  "item.repause.pause": "Pause",
+  "item_group.repause.re_pause": "RePause"
+}

@@ -1,0 +1,19 @@
+{
+  "_fv": 66,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:FreezeGrenade"
+    },
+    "showParticles": true,
+    "actionSound": {
+      "value": "entity.tnt.primed"
+    },
+    "igniteFire": false,
+    "power": 1.2000000000000002,
+    "damage": 1.2999999999999998,
+    "knockback": 5,
+    "entityModel": "Default",
+    "customModelTexture": ""
+  }
+}

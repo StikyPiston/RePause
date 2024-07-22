@@ -1,0 +1,276 @@
+{
+  "mod_elements": [
+    {
+      "name": "PauseRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pause_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/stikypiston/repause/procedures/PauseRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ResumeRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resume_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/stikypiston/repause/procedures/ResumeRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RePause",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "re_pause",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Pause",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pause",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/repause/models/item/pause.json",
+          "src/main/java/io/github/stikypiston/repause/item/PauseItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Resume",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resume",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/repause/models/item/resume.json",
+          "src/main/java/io/github/stikypiston/repause/item/ResumeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "IncompleteResume",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "incomplete_resume",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/repause/models/item/incomplete_resume.json",
+          "src/main/java/io/github/stikypiston/repause/item/IncompleteResumeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "IncompletePause",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "incomplete_pause",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/stikypiston/repause/item/IncompletePauseItem.java",
+          "src/main/resources/assets/repause/models/item/incomplete_pause.json"
+        ]
+      }
+    },
+    {
+      "name": "IncompletePauseRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "incomplete_pause_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/repause/recipes/incomplete_pause_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "IncompleteResumeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "incomplete_resume_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/repause/recipes/incomplete_resume_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ResumeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resume_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/repause/recipes/resume_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PauseRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pause_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/repause/recipes/pause_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FreezeGrenadeProjectileHitsLivingEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freeze_grenade_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/stikypiston/repause/procedures/FreezeGrenadeProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FreezeGrenade",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freeze_grenade",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/stikypiston/repause/item/FreezeGrenadeItem.java",
+          "src/main/resources/assets/repause/models/item/freeze_grenade.json"
+        ]
+      }
+    },
+    {
+      "name": "FreezeGrenadeProj",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freeze_grenade_proj",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/stikypiston/repause/entity/FreezeGrenadeProjEntity.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:Resume",
+      "~CUSTOM:Pause"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.repause.resume": "Resume",
+      "item.repause.incomplete_pause": "Incomplete Pause",
+      "item.repause.incomplete_resume": "Incomplete Resume",
+      "item.repause.freeze_grenade": "Freeze Grenade",
+      "item.repause.pause": "Pause",
+      "item_group.repause.re_pause": "RePause"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "repause",
+    "modName": "RePause",
+    "version": "1a",
+    "description": "Adds items to pause and resume the game! Also some misc stuff",
+    "author": "StikyPiston2483",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.20.6",
+    "modElementsPackage": "io.github.stikypiston.repause"
+  },
+  "mcreatorVersion": 202400229712
+}
